@@ -1,0 +1,183 @@
+body{
+    font-family: 'Titillium', sans-serif;
+    margin: 0;
+}
+
+section{
+    background-color: whitesmoke;
+}
+
+.hero{
+    background-color: lightgray;
+    height: 100vh;
+    color: black;
+    font-size: 40px;
+}
+
+footer{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li{
+    text-decoration: none;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 250px;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    height: 40px;
+    width: 175px;
+    border-radius: 40px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: rgb(69, 69, 255);
+}
+
+.button:active{
+    background-color: rgb(201, 80, 80);
+}
+
+.socials{
+    padding-bottom: 250px;
+}
+
+.logo{
+    height: 90px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.social{
+    margin: 80px;
+}
+
+.subsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.subsection-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.photo{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    padding: 20px;
+    text-align: justify;
+}
+
+.project-card{
+    width: 250px;
+    height: 700px;
+    box-shadow: 5px 5px 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.project{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-image{
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 150px;
+    align-items: center;
+}
+
+@media only screen and (max-width:1300px) {
+    .project{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .headshot{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h6{
+    color: gray;
+    font-family: Quicksand;
+}
