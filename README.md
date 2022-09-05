@@ -1,2 +1,2 @@
 # my_portfolio
-A basic webpage using HTML and CSS for my Portfolio.
+A basic webpage using HTML and CSS containing my Portfolio.
