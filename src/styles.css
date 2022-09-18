@@ -101,7 +101,7 @@ p{
 }
 
 .logo{
-    height: 90px;
+    height: 100px;
     margin: 20px;
     margin-left: 30px;
     margin-top: 30px;
@@ -170,6 +170,18 @@ p{
         display: flex;
         flex-wrap: wrap;
     }
+    .nav-ul{
+        flex-wrap: wrap;
+    }
+    #button1, #button2{
+        flex-wrap: wrap;
+    }
+    .social{
+        flex-wrap: wrap;
+    }
+    .socials{
+        flex-wrap: wrap;
+    }
 }
 
 a{
@@ -180,4 +192,8 @@ a{
 h6{
     color: gray;
     font-family: Quicksand;
+}
+
+#button1, #button2{
+    display:inline-block;
 }

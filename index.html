@@ -12,7 +12,9 @@
     <body>
         <section class="hero">
             <nav>
-                <img class="logo" src="src/img/Logo.png" alt="Abhishek's Logo">
+                <a href onClick="window.location.reload();">
+                    <img class="logo" src="src/img/Logo.png" alt="Abhishek's Logo">
+                </a>
                 <ul class="nav-ul">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -23,7 +25,8 @@
                 <div class="hero-text">
                     <h1>Abhishek</h1>
                     <p>Senior QA Engineer</p>
-                    <div class="button"><a href="#about-me">About Me</a></div>
+                    <div class="button" id="button1"><a href="#about-me">About Me</a></div>
+                    <div class="button" id="button2"><a href="src/Resume.pdf" download target="_blank">Résumé</a></div>
                 </div>
                 <div class="socials">
                     <div>
@@ -49,13 +52,15 @@
             </div>
             <div class="info">
                 <p>Hello there!</p>
-                <p>My name is Abhishek and I am a Software Quality Assurance and Assistance Professional.</p>
+                <p>My name is Abhishek. I am a Software Quality Assurance and Assistance Professional.</p>
                 <br>
                 <p>A detail-oriented QA Engineer with more than six years of experience and a zest for solving complex problems.</p>
                 <p>I specialize in UI Automation using Protractor-Jasmine, Test Planning and Test Designing, AEM Testing, and API Testing using Postman.</p>
                 <p>Using proven test management and design skills, I intend to improve quality, cost and time metrics for Software Delivery Projects.</p>
                 <br>
                 <p>Graduated in 2016, with Bachelor's in Electronics and Communication Engineering from S.I.T., Tumakuru, affiliated to V.T.U., Belagavi.</p>
+                <br>
+                <p>Also, fascinated with Power of Compounding, I actively trade and invest in Equity Markets. Always keen on helping people with their personal finance!</p>
             </div>
             
         </section>
@@ -102,10 +107,11 @@
             </div>
         </section>
         <footer id="contact-me">
+            <h6>If you have anything that I can help you with, please feel free to</h3>
             <h2>Contact Me</h2>
-            <p>&#9993; abhishek.1si12ec004@gmail.com</p>
-            <p>&#9990; +372 - 54 58 56 00</p>
-            <p>&#9990; +91 - 97388 21149</p>
+            <p><span style="font-family: monospace">&#9993;</span> abhishek.1si12ec004@gmail.com</p>
+            <p><span style="font-family: monospace">&#9990;</span> +372 - 54 58 56 00</p>
+            <p><span style="font-family: monospace">&#9990;</span> +91 - 97388 21149</p>
             <br>
                 <a href="mailto:abhishek.1si12ec004@gmail.com" class="social">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z"/></svg>
@@ -122,7 +128,7 @@
             <hr>
             <br>
             <h6>Best Viewed in Desktop Mode</h6>
-            <h6>§ Designed by Abhishek §</h6>
+            <h6>&#169; Designed & Developed by Abhishek </h6>
         </footer>
 
         <script src="src/app.js"></script>
