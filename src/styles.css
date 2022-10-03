@@ -127,6 +127,7 @@ p{
 .photo{
     width: 300px;
     border-radius: 150px;
+    transform:rotate(-3deg)
 }
 
 .headshot{
