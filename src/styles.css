@@ -151,7 +151,8 @@ p{
 
 .project{
     display:flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -163,10 +164,6 @@ p{
 }
 
 @media only screen and (max-width:1300px) {
-    .project{
-        display: flex;
-        flex-wrap: wrap;
-    }
     .headshot{
         display: flex;
         flex-wrap: wrap;
