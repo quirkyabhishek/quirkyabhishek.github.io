@@ -25,6 +25,11 @@ footer{
 nav{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -41,6 +46,9 @@ nav{
 li{
     text-decoration: none;
     align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
 }
 
 h1{
@@ -59,7 +67,7 @@ p{
 }
 
 .subtext{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -86,10 +94,14 @@ p{
     padding-top: 5px;
     padding-bottom: 3px;
     margin-top: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .button:hover{
     background-color: rgb(69, 69, 255);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(100, 149, 237, 0.4);
 }
 
 .button:active{
@@ -147,6 +159,13 @@ p{
     padding: 20px;
     margin: 10px;
     text-align: justify;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .project{
