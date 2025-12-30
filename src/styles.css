@@ -150,6 +150,7 @@ p{
 .info{
     padding: 20px;
     text-align: justify;
+    line-height: 1.6;
 }
 
 .project-card{
